@@ -1,7 +1,8 @@
 //% weight=100 color=#333333 icon="\uf224"
-namespace emojis{
+namespace emoj{
 export interface emoji {
-emojis.j(h=(string=(Text.substr("😀","😃","😄","😁","😆","😅"))))
+emoj.testing(h=(string=(Text.substr("😀","😃","😄","😁","😆","😅")))): emoji;
+
 
 
 
@@ -10,10 +11,11 @@ emojis.j(h=(string=(Text.substr("😀","😃","😄","😁","😆","😅"))))
 }
 
 
-export function j(h: emoji): emoji{
+export function testing(h: emoji): emoji{
 return h
 
 }
+
 
 
 
