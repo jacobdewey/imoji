@@ -10,11 +10,12 @@ emoj.testing(h=(string=(Text.substr("😀","😃","😄","😁","😆","😅")))
 
 }
 
-
+//% block
 export function testing(h: emoji): emoji{
 return h
 
 }
+
 
 
 
