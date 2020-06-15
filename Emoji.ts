@@ -37,7 +37,7 @@ button(): ButtonEnum
 
 
 export type Block ={
-Block(): () => void
+Block(): void
 }
  
  
