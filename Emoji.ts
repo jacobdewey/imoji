@@ -22,25 +22,18 @@ AB
 //% weight=100 color=#333333 icon="\uf224"
 namespace a{
 // not done
-export type emoji ={
-Emoji(): string;
+export type Emoji ={
+Emoji(): string
 
 
 
 
 }
 export type Button ={
-button(): ButtonEnum;
+button(): ButtonEnum
 }
-export type block ={
-j(): () => void;
-
-
-
-
-
-
-
+export type Block ={
+Block(): () => void
 }
  
  
