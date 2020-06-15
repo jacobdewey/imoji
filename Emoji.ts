@@ -42,11 +42,8 @@ Emoji(): string;
 export type Button ={
 button(): ButtonEnum;
 }
-export type TypeEnum ={
-x(): Type;
-
-
-
+export type Typeenum ={
+typeEnum(): Type;
 }
 
  
