@@ -2,7 +2,7 @@
 namespace emoj{
 
 
-class emoji {
+export class emoji {
   Emoji: string=("😀","😃","😄","😁","😆","😅")
     constructor() {
     
