@@ -7,6 +7,23 @@ B,
 //% block="Button A+B"
 AB
 }
+enum Type{
+//% block="boolean"
+boolean,
+//% block="number"
+number,
+//% block="string"
+string
+
+
+
+}
+
+
+
+
+
+
 
 
 
@@ -24,23 +41,13 @@ Emoji(): string;
 }
 export type Button ={
 button(): ButtonEnum;
-
-
-
-
-
-
-
-
-
-
-
-
+}
+export type TypeEnum ={
+x: Type
 
 
 
 }
-
 
  
  
