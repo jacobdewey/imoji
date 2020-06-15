@@ -43,7 +43,7 @@ export type Button ={
 button(): ButtonEnum;
 }
 export type TypeEnum ={
-x: Type
+x(): Type;
 
 
 
