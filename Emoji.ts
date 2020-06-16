@@ -18,17 +18,25 @@ AB
 
 
 
-
 //% weight=100 color=#333333 icon="\uf224"
 namespace a{
 // not done
-export type Emoji ={
-Emoji(): string
-
-
-
-
+//% block
+export function x(n:string=("😀","😃","😄","😁","😆","😅")): string{
+return n
 }
+    
+
+
+
+
+
+
+
+
+
+
+
 export type Button ={
 button(): ButtonEnum
 }
@@ -37,9 +45,9 @@ button(): ButtonEnum
 
 
 export type Block ={
-Block(): void
+block(): void
 }
- 
+
  
 
 
